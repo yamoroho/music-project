@@ -1,0 +1,78 @@
+.player__wrapper{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #212529;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.player__wrapper button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.player__details{
+  display: flex;
+  align-items: center;
+}
+
+.player__track-img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.player__track-progress{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  transform: translateY(-50%);
+  /* appearance: none;
+  -webkit-appearance: none;  */
+  /* background-color: transparent !important; */
+  /* overflow: hidden; */
+  
+}
+
+
+
+.player__track-progress:focus {outline: none;}
+
+
+
+
+
+
+
+/* Track */
+/* .player__track-progress::-webkit-slider-runnable-track {cursor: pointer; box-shadow: none; background: #5d6772; border-radius: 0; border: none; transition: .2s;}
+.player__track-progress::-moz-range-track {width: 100%; cursor: pointer; box-shadow: none; background: #5d6772; border-radius: 0; border: none; transition: .2s;}
+.player__track-progress::-ms-track {width: 100%; cursor: pointer; background: transparent; border-color: transparent; color: transparent;}
+
+
+
+.player__track-progress::-webkit-slider-runnable-track {height: 6px;}
+.player__track-progress::-moz-range-track {height: 6px;}
+.player__track-progress::-ms-track {height: 6px;} */
+
+/* Thumb */
+/* .player__track-progress::-webkit-slider-thumb {box-shadow: none; border: none; background: #0766cb; cursor: pointer; -webkit-appearance: none; margin-top: -6.5px; box-shadow: -10000px 0 0 10000px #353b41;}
+.player__track-progress::-moz-range-thumb {box-shadow: none; border: none; background: #0766cb; cursor: pointer;}
+.player__track-progress::-ms-thumb {box-shadow: none; border: none; background: #0766cb; cursor: pointer;}
+
+
+.player__track-progress::-webkit-slider-thumb {height: 15px; width: 15px;}
+.player__track-progress::-moz-range-thumb {height: 15px; width: 15px;}
+.player__track-progress::-ms-thumb {height: 15px; width: 15px;} */
+
+
+
+
